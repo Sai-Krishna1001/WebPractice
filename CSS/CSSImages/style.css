@@ -1,0 +1,50 @@
+/* body{
+    background-color: red;
+    color:aliceblue;
+    font-weight: bold;
+ }
+
+ ol,li{
+    margin:0;
+    padding:0;
+ }
+ li{
+    margin-bottom: 12px;
+ }
+ div{
+    background-image: url(/images/icons8-smile-64.png);
+    width:256px;
+    height:256px;
+ }
+ .one{
+    background-repeat: no-repeat;
+ }
+ .two{
+    background-repeat: repeat;
+ }
+ .three{
+    background-repeat: repeat-x;
+ }
+ .four{
+    background-repeat: repeat-y;
+ }
+ .five{
+    background-repeat: space;
+ } */
+
+
+ /* body{
+    background-image: url("/images/icons8-star-50.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+ } */
+
+ .warning{
+    background: pink;
+ }
+
+ .topbanner{
+    background: #99f url(/images/icons8-smile-64.png) repeat-y fixed center ;
+ }
+

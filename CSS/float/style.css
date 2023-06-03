@@ -1,0 +1,35 @@
+ body{
+     background-color: #111;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color:white;
+ }
+
+ div{
+    width: 100px;
+    height:100px;
+    margin:1rem;
+    font-size: 1.2rem;
+    border: solid 2px white;
+    /* border-radius: 50%; */
+    text-align: center;
+    line-height: 100px;
+    /* float:right; */
+    clear:both;
+ }
+ .ele1{
+    background-color: darkred;
+    float:left;
+    height: 200px;
+ }
+ .ele2{
+    background-color: darkgoldenrod;
+    float: right;
+    height:300px;
+ }
+ .ele3{
+    background-color: darkgreen;
+    width: 95%;
+    clear:inherit;
+ }
+ 
+

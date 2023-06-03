@@ -1,0 +1,120 @@
+/* a:link{
+    color:blue;
+}
+a:active{
+    color:red;
+} */
+
+/* 
+p:first-child{
+    color:blue;
+    background-color: black;
+} */
+
+/* .class1:focus{
+    background: yellow;
+    color: red;
+} */
+
+/* label{
+    display: block;
+    margin: 1px;
+    padding: 1px;
+}
+input:optional{
+    background-color: yellow;
+    border-width: 3px;
+}
+input:required{
+    background-color: pink;
+    border-width: 3px;
+} */
+
+/* a:visited{
+    color:red;
+} */
+
+/* 
+a{
+    background-color:rgb(106,159,167);
+    transition: background-color 0.5s;
+}
+a:hover{
+    background-color: yellow;
+} */
+
+/* 
+li:nth-child(3){
+    border: 2px solid blue;
+    margin-bottom: 1px;
+} */
+
+/* li:nth-last-child(2){
+    border: 2px solid blue;
+    margin-top: 1px;
+} */
+
+/* dd:nth-last-of-type(3){
+    border: 2px solid violet;
+} */
+/* 
+.hello::after{
+    content: "This is a yellow box.";
+    background-color: yellow;
+    border-color: black;
+    border-style: dotted;
+}
+
+.hello::before{
+    content:"This is a red box.";
+    background-color: red;
+    border-color: green;
+    border-style: dashed;
+} */
+
+/* 
+p::selection{
+    color:red;
+    background-color: yellow;
+} */
+
+/* a[title]{
+    color:purple;
+    font-size: larger;
+} */
+
+/* 
+a[href="https://example.org"]{
+    color:orange;
+} */
+
+/* [class~="newton"]{
+    color:blue;
+    font-size: 40px;
+    font-weight: bold;
+} */
+
+/* [class|="newton"]{
+    color:green;
+    font-size: 40px;
+    font-weight: bold;
+} */
+
+/* [class^="new"]{
+    color:red;
+    font-size: 40px;
+    font-weight: bold;
+} */
+
+
+/* [class$="jfsd"]{
+    color:green;
+    font-size: 40px;
+    font-weight: bold;
+} */
+
+[class*="new"]{
+    color:blue;
+    font-size: 20px;
+    font-weight: bolder;
+}

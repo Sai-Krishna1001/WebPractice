@@ -1,0 +1,31 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.container{
+    font-size: 4rem;
+    text-align: center;
+    color: goldenrod;
+}
+.myHeading{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 3rem;
+    color: dodgerblue;
+    border: solid;
+}
+.topic{
+    font-size: 2rem;
+    color: orangered;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+h3{
+    border: 5px solid dodgerblue;
+    margin-bottom: 20px;
+}
+p{
+    border: 5px solid;
+    margin-top: -30px;
+}

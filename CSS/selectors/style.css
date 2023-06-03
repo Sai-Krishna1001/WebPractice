@@ -1,0 +1,20 @@
+/* li{
+    list-style-type: disc;
+}
+li li{
+    list-style-type: circle;
+} */
+/* span{
+    background-color: blue;
+}
+div>span{
+    background-color: red;
+} */
+
+/* li:first-of-type + li{
+    color:blue;
+} */
+
+p ~ span{
+    color:red;
+}

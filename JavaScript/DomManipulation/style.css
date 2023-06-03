@@ -1,0 +1,10 @@
+.new-class{
+    color: blue;
+}
+.old-class{
+    text-decoration: line-through;
+}
+#modifyStyle{
+    background-color: yellow;
+    font-size: 14px;
+}
