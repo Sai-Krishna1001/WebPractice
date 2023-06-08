@@ -1,16 +1,16 @@
-const myPost = {
-    title: 'A post about true facts',
-    body: '42',
-    userId: 2
-}
+// const myPost = {
+//     title: 'A post about true facts',
+//     body: '42',
+//     userId: 2
+// }
 
-const options = {
-    method: 'POST',
-    body: JSON.stringify(myPost),
-    headers: {
-        'content-Type': 'application/json'
-    }
-}
+// const options = {
+//     method: 'POST',
+//     body: JSON.stringify(myPost),
+//     headers: {
+//         'content-Type': 'application/json'
+//     }
+// }
 
 fetch('https://jsonplaceholder.typicode.com/postsZZZ', options)
 .then(res => {
@@ -24,4 +24,4 @@ fetch('https://jsonplaceholder.typicode.com/postsZZZ', options)
     }
 })
 .then(res => console.log(res))
-.catch(err => console.log('Erro, with message:', err.statusText));
+.catch(err => console.log('Error, with message:', err.statusText));

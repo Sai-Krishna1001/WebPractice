@@ -1,10 +1,29 @@
-function typeCheck(value){
-    const return_value = Object.prototype.toString.call(value);
-    const type = return_value.substring(
-        return_value.indexOf(" ")+1,
-        return_value.indexOf("]"));
-    return type.toLowerCase();
-    // return return_value;
-}
-console.log(typeCheck(null));
-console.log("krishna");
+var animals = [
+    { animal: 'Horse', name: 'Henry', age: 43 },
+    { animal: 'Dog', name: 'Fred', age: 13 },
+    { animal: 'Cat', name: 'Frodo', age: 18 }
+];
+ 
+console.table(animals);
+
+const person = {
+    name: 'John',
+    age: 30,
+    address: {
+      street: '123 Main St',
+      city: 'New York',
+    },
+  };
+  
+  console.log(JSON.stringify(person));
+  console.dir(person);
+
+  function divide(a, b) {
+    debugger; // Execution will pause here
+    return a / b;
+  }
+  
+  let result = divide(10, 2); // Execution will pause at the debugger statement
+  console.log(result);
+  
+  
