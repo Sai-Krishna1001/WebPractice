@@ -1,0 +1,37 @@
+<!-- 
+    Event Capturing (top-down):
+    Event capturing is the first phase of event propagation. 
+    It starts at the root of the DOM tree and moves down
+    to the target element. During the capturing phase, 
+    the event first triggers on the outermost element and 
+    then propagates inward towards the target element.
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturing</title>
+ </head>
+ <body>
+    <div id="outer">outer
+        <div id="inner">
+            inner
+        </div>
+    </div>
+    <script>
+        const outer = document.getElementById('outer');
+        const inner = document.getElementById('inner');
+
+        outer.addEventListener('click', ()=>{
+            console.log('Outer element clicked (capturing)');
+        },true);
+
+        inner.addEventListener('click', ()=>{
+            console.log('Inner element clicked');
+        });
+    </script>
+ </body>
+ </html>

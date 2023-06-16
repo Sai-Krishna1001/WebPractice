@@ -1,0 +1,36 @@
+<!-- 
+    Event Bubbling (bottom-up):
+    Event bubbling is the second phase of event propagation. 
+    It starts at the target element and moves up through 
+    the DOM tree towards the root element. During the 
+    bubbling phase, the event triggers on the target 
+    element and then propagates outward to its parent elements.
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbling</title>
+ </head>
+ <body>
+    <div id="outer">outer
+        <div id="inner">
+            inner
+        </div>
+    </div>
+
+    <script>
+        const outer = document.getElementById('outer');
+        const inner = document.getElementById('inner');
+
+        outer.addEventListener('click', ()=>{
+            console.log('Outer element clicked');
+        });
+        inner.addEventListener('click', ()=>{
+            console.log('Inner element clicked (bubbling)');
+        },false);
+    </script>
+ </body>
+ </html>
