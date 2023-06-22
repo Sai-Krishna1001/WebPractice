@@ -1,3 +1,2 @@
-the quick brown fox jumps over the lazy dog
-    the quick brown fox jumps over the lazy dog
-        the quick brown fox jumps over the lazy dog
+let a = 10;
+console.log(a);
