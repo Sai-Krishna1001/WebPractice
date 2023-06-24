@@ -29,6 +29,7 @@ pqr.r = 3; // Attempted addition
 delete pqr.p // Attempted deletion
 obj.q = 4; // Property modification
 console.log(pqr);
+console.log(obj.q);
 
 
 // Object.is(obj1, obj2) - Determines whether two values are the same value (strict equality) or not.
