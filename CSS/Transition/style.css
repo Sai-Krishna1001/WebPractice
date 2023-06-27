@@ -12,16 +12,26 @@ body{
     width: 100px;
     height: 100px;
     background-color: red;
-    transition: 1s;
-    animation-name: box;
-    animation-duration: 5s;
-}  
-
-@keyframes box{
-    from{
-        transform: translateX(-200px) translateY(-200px) skewX(30deg  );
-    }
-    to{
-        transform: translateX(200px) translateY(200px); 
-    }
+    position: relative;
 }
+.box:before{
+    content: "Hello";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    bottom: 100%; 
+    text-align: center;
+    color: red;
+}
+.box:after{
+    content: "Hello";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    right:100%;
+    text-align: center;
+    color: blue;
+}
+
