@@ -1,0 +1,13 @@
+$new-width: 150px;
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.main-heading{
+    font-size: (1.2rem * 4.2rem) / 0.7rem;
+    text-align: center;
+    color:orangered;
+    padding: (120px/3px) + 0.2px;
+    width: ($new-width/60px)*20%;
+}

@@ -1,0 +1,6 @@
+//Responsive...
+@mixin mobileView{
+    @media screen and (max-width: 680px){
+        @content;
+    }
+}

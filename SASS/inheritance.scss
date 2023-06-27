@@ -1,0 +1,27 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.class-one{
+    font-size: 2rem;
+    text-align: left;
+    color: goldenrod;
+}
+.class-two{
+    @extend .class-one;
+    text-align: center;
+    padding: 40px;
+}
+%hoverOnHeading{
+    &:hover{
+        color: darkgreen;
+        transition: 1s linear;
+        cursor: pointer;
+    }
+}
+.class-three{
+    @extend .class-two, %hoverOnHeading;
+    padding: 0;
+    text-align: right;
+}

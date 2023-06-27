@@ -1,0 +1,56 @@
+//Globals
+@use 'mixins' as *;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+}
+body{
+    height: 100vh;
+    background: #fff;
+}
+//Sidebar...
+.sidebar-wrapper{
+    width: 300px;
+    height: 100%;
+    background: linear-gradient(rgb(212, 209, 24) 2%, #000 100%);
+    @include mobileView{
+        width: 64px;
+    }
+    &_header{
+        display: flex;
+        padding: 16px 16px;
+        font-size: 1.3em;
+        text-align: center;
+        background: linear-gradient(#111 5%, #444 100%);
+        gap: 15px;
+        &_htmlCssTutorial{
+            color: #fff;
+            @include mobileView{
+                display: none;
+            }
+        }
+    }
+    &_list{
+        color: #fff;
+        margin-top: 12px;
+        &_items{
+            display: flex;
+            padding: 12px 18px;
+            gap: 10px;
+            cursor: pointer;
+            color: white;
+            &_title{
+                margin-top: 2px;
+                @include mobileView{
+                    display: none;
+                }
+            }
+        }
+        &_items:hover{
+            background: dodgerblue;
+        }
+    }
+}

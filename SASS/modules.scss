@@ -1,0 +1,19 @@
+@use 'newColor1' as c1 ;
+@use 'newColor2' as c2;
+@use 'mixins' as *;
+
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+h1{
+    color: c1.$bg_color;
+    font-size: 3rem;
+    text-align: center;
+}
+.text1, .text2, .text3{
+    @include text-settings(85vw, 20vh);
+    font-size: 1.3rem;
+    color: c2.$bg_color;
+}

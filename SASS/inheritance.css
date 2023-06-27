@@ -1,0 +1,27 @@
+body {
+  background-color: #111;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.class-one, .class-two, .class-three {
+  font-size: 2rem;
+  text-align: left;
+  color: goldenrod;
+}
+
+.class-two, .class-three {
+  text-align: center;
+  padding: 40px;
+}
+
+.class-three:hover {
+  color: darkgreen;
+  transition: 1s linear;
+  cursor: pointer;
+}
+
+.class-three {
+  padding: 0;
+  text-align: right;
+}/*# sourceMappingURL=inheritance.css.map */

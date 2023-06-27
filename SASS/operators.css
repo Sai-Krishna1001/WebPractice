@@ -1,0 +1,13 @@
+body {
+  background-color: #111;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+.main-heading {
+  font-size: 7.2rem;
+  text-align: center;
+  color: orangered;
+  padding: 40.2px;
+  width: 50%;
+}/*# sourceMappingURL=operators.css.map */
