@@ -1,0 +1,39 @@
+body {
+  background-color: #111;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+h1 {
+  color: bisque;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.para1 {
+  color: goldenrod;
+  padding: 2%;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.para2 {
+  color: red;
+  padding: 2%;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.para3 {
+  color: goldenrod;
+  padding: 2%;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.para4 {
+  color: goldenrod;
+  padding: 2%;
+  font-size: 1.2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}/*# sourceMappingURL=styles.css.map */

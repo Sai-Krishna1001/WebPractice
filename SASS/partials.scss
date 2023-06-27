@@ -1,0 +1,37 @@
+@import 'reset';
+body{
+    background-color: #111;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    color: blue;
+}
+#form{
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+.form-field{
+    display: flex;
+    margin: 0 0 1rem 0;
+}
+label, input{
+    width: 60%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+label{
+    text-align: right;
+    width: 30%;
+}
+input{
+    border: 2px solid #aaa;
+    border-radius: 2%;
+}
