@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.css">
+    <script src="./bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <style>
+        [class*='col']{
+            padding: 1rem;
+            background-color: #33b5e5;
+            border: 2px solid #0f0;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-sm-6">Nested Column 1</div>
+              <div class="col-sm-6">Nested Column 2</div>
+            </div>
+          </div>
+          <div class="col-md-6">Column 2</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">Column 1</div>
+          <div class="col-6">Column 2</div>
+          <div class="col">Column 3</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-4">Column 1</div>
+          <div class="col-sm-6 col-md-4">Column 2</div>
+          <div class="col-sm-6 col-md-4">Column 3</div>
+          <div class="col-sm-6 col-md-4">Column 4</div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">Column 1</div>
+          <div class="col">Column 2</div>
+          <div class="w-100"></div> <!-- Creates a new row -->
+          <div class="col">Column 3</div>
+          <div class="col">Column 4</div>
+        </div>
+      </div>
+      
+      
+      
+</body>
+</html>
